@@ -23,6 +23,7 @@ class GiftGrabGame extends FlameGame with HasDraggables, HasCollisionDetection {
     FlameAudio.audioCache.loadAll(
       [
         Globals.itemGrabSound,
+        Globals.freezeSound,
       ],
     );
 
