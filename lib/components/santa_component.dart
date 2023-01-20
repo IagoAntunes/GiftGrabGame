@@ -1,3 +1,4 @@
+import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:santagame/games/gif_grab_game.dart';
 
@@ -47,6 +48,8 @@ class SantaComponent extends SpriteGroupComponent
     height = _spriteHeight;
     width = _spriteHeight * 1.42;
     anchor = Anchor.center;
+
+    add(CircleHitbox());
   }
 
   @override
