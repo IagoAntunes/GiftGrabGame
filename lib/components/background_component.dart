@@ -5,7 +5,7 @@ import '../constants/globals.dart';
 
 //SpriteComponent pode ser um personagem,background etc
 //HasGameRef usa as propriedades do game
-class backgroundComponent extends SpriteComponent
+class BackgroundComponent extends SpriteComponent
     with HasGameRef<GiftGrabGame> {
   @override
   Future<void> onLoad() async {
