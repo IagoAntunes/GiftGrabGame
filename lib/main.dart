@@ -1,12 +1,12 @@
-import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'package:santagame/games/gif_grab_game.dart';
+import 'package:santagame/screens/game_play.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
-    GameWidget(
-      game: GiftGrabGame(),
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: GamePlay(),
     ),
   );
 }

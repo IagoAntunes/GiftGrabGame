@@ -2,7 +2,7 @@ class Globals {
 //Nao queremos instanciar apenas usar asd props
   Globals._();
 
-  static const String backgroundSpriote = "background-sprite.jpg";
+  static const String backgroundSprite = "background-sprite.jpg";
   static const String santaIdleSprite = "santa-idle.png";
   static const String santaFroozenSprite = 'santa-frozen.png';
 
@@ -14,4 +14,6 @@ class Globals {
 
   static const String itemGrabSound = 'item-grab-sound.wav';
   static const String freezeSound = 'freeze-sound.wav';
+
+  static late bool isTablet;
 }
