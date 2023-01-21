@@ -10,7 +10,7 @@ class BackgroundComponent extends SpriteComponent
   @override
   Future<void> onLoad() async {
     await super.onLoad();
-    sprite = await gameRef.loadSprite(Globals.backgroundSpriote);
+    sprite = await gameRef.loadSprite(Globals.backgroundSprite);
     size = gameRef.size;
   }
 }
