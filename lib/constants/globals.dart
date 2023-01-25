@@ -15,5 +15,5 @@ class Globals {
   static const String itemGrabSound = 'item-grab-sound.wav';
   static const String freezeSound = 'freeze-sound.wav';
 
-  static late bool isTablet;
+  static late bool isTablet = false;
 }
